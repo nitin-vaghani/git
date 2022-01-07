@@ -8,7 +8,7 @@ DONT WANT TO REMOVE THEN: Just add *~ to .gitignore at the root of you repo.
 
 LINK:: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-==================
+
 INSTALLATION
 =========================================================================================
 sudo apt-get install git
