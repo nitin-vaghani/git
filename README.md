@@ -17,7 +17,7 @@ sudo apt-get install git
 
 git --version
 
-=========================================================================================
+
 STEPS FOR PUSH TO GIT
 =========================================================================================
 
@@ -39,7 +39,7 @@ git commit -am "Fresh Copy"
 git checkout developer
 git push origin developer
 
-=========================================================================================
+
 .gitignore
 =========================================================================================
 *~
@@ -48,37 +48,32 @@ cgi-bin/
 upload/
 .sass-cache/
 
-===============================================================
+
 NOTES
 ==================================================================
 If you have changed any files in (IE. admin folder) then you have to add those files to git again by following command:
 git add admin/
 
-================================================================
-Get files from server
+
+Get pull from server
 ====================================================================
 git pull origin developer
 
+Error Handling
 ====================================================================
+In case you get error something like this :
 --fatal: The remote end hung up unexpectedly
 fatal: early EOF
 fatal: index-pack failed
 
 git config --global core.compression 0
 -clone again.
-git config --global core.compression -1  
+git config --global core.compression -1
 
-===============================================
-
-
-
-
-=========================================================================================
 STEPS FOR PUSH EXISTING PROJECT TO GIT
 =========================================================================================
 
 URL: https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
-
 
 1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
 Create New Repository drop-down
