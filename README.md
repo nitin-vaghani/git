@@ -2,6 +2,7 @@
 Git Guide
 
 NOTE::  Remove tild files from project before commit
+
 find . -type f -name '*~' -exec rm -f '{}' \;
 
 DONT WANT TO REMOVE THEN: Just add *~ to .gitignore at the root of you repo.
