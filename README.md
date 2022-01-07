@@ -21,7 +21,7 @@ git --version
 STEPS FOR PUSH TO GIT
 =========================================================================================
 
-git clone https://github.com/nitin-vaghani/git.git /var/www/html/git/
+> git clone https://github.com/nitin-vaghani/git.git /var/www/html/git/
 git checkout developer
 chmod -R 0777 ./*
 nano .gitignore  //goto .gitignore section
