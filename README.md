@@ -3,7 +3,7 @@ Git Guide
 
 NOTE::  Remove tild files from project before commit
 
-find . -type f -name '*~' -exec rm -f '{}' \;
+> find . -type f -name '*~' -exec rm -f '{}' \;
 
 DONT WANT TO REMOVE THEN: Just add *~ to .gitignore at the root of you repo.
 
@@ -12,11 +12,11 @@ LINK:: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-confi
 
 INSTALLATION
 =========================================================================================
-sudo apt-get install git
+> sudo apt-get install git
 
 //To check git is installed on your PC type following command
 
-git --version
+>git --version
 
 
 STEPS FOR PUSH TO GIT
