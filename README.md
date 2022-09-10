@@ -131,4 +131,20 @@ Sets the new remote EX. git remote add origin http://github.com/web-group/xyz.gi
 
 >git push origin master
 
+For check difference between your LOCAL branch & Remote branch
+=========================================================================================
+
+You've to fetch data using below command
+git fetch
+
+Now, latest changes of remove branch is in your local..Use below command to check difference
+
+Now hit below command for get all branch list
+git branch -a
+
+feature/front-end : This is your local branch
+remotes/origin/feature/front-end : This is remove branch
+
+git diff feature/front-end remotes/origin/feature/front-end
+
 #ThankYou!!
