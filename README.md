@@ -142,7 +142,7 @@ Now hit below command for get all branch list
 
 >feature/front-end : This is your local branch
 
->remotes/origin/feature/front-end : This is remove branch
+>remotes/origin/feature/front-end : This is remote branch
 
 Now, latest changes of remote branch is in your local..Use below command to check difference
 >git diff feature/front-end remotes/origin/feature/front-end
